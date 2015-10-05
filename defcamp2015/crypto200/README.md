@@ -1,14 +1,15 @@
 # No Crypto (Crypto 200)
 
+```
 The folowing plaintext has been encrypted using an unknown key, with AES-128 CBC:
 Original:   Pass: sup3r31337. Don't loose it!
 Encrypted:  4f3a0e1791e8c8e5fefe93f50df4d8061fee884bcc5ea90503b6ac1422bda2b2b7e6a975bfc555f44f7dbcc30aa1fd5e
 IV:         19a9d10c3b155b55982a54439cb05dce
 
-__How would you modify it so that it now decrypts to: "Pass: notAs3cre7. Don't loose it!"__
+How would you modify it so that it now decrypts to: "Pass: notAs3cre7. Don't loose it!"
 
-__This challenge does not have a specific flag format.__
-
+This challenge does not have a specific flag format.
+```
 
 
 I don't have prior knowledge about AES-128 CBC. Wikipedia explains a little:
