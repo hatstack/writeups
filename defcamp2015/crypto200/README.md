@@ -30,8 +30,8 @@ The last byte is the amount of bytes the decrypter should ignore.
 
 I searched the web with my favorite search engine for known attacks on CBC and it came up with these results:
 
-# http://www.jakoblell.com/blog/2013/12/22/practical-malleability-attack-against-cbc-encrypted-luks-partitions/#toc-2
-# http://resources.infosecinstitute.com/cbc-byte-flipping-attack-101-approach/
+0. http://www.jakoblell.com/blog/2013/12/22/practical-malleability-attack-against-cbc-encrypted-luks-partitions/#toc-2
+0. http://resources.infosecinstitute.com/cbc-byte-flipping-attack-101-approach/
 
 The idea of these attacks is:  By XORing the ciphertext of block N with x, we corrupt block N and XOR the plaintext of block N+1 with x.
 
